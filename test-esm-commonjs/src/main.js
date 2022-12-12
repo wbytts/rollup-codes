@@ -1,4 +1,4 @@
-import { ChatGPTAPI } from 'chatgpt';
+const { ChatGPTAPI } = require('../lib/esm.js');
 const _ = require('lodash');
 
 console.log(ChatGPTAPI);

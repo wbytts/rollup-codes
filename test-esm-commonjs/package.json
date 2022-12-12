@@ -6,7 +6,7 @@
   "module": "./src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist && rollup --bundleConfigAsCjs --config rollup.config.js"
+    "build": "rimraf lib && rollup --bundleConfigAsCjs --config rollup.config.js"
   },
   "keywords": [],
   "author": "",

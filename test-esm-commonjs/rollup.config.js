@@ -7,9 +7,9 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 export default [
   {
     // 你的项目入口文件
-    input: './src/main.js',
+    input: './esm.js',
     output: {
-      dir: './dist', // 打包后代码输出的位置
+      dir: './lib', // 打包后代码输出的位置
       format: 'cjs', // 打包结果的输出格式 cjs 即 commonjs
     },
     // rollup使用到的插件
